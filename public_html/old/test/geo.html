@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>ЛК Айсберг - +7(495)780-87-77 - Рефрижераторные перевозки, температурный режим от 0 до +8°С. Гарантированные еженедельные поставки в торговые сети в 60-ти городах России. Полный спектр транспортно-логистических услуг.</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <img src="logo_ice.png" alt="example graphic">
+        </div>
+        <div id="logo_text2">
+          <a href="http://client.tlk-ice.ru"><img src="button-7402.png" alt="example graphic"></a>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">УСЛУГИ</a></li>
+          <li><a href="logistic.html">СОТРУДНИЧЕСТВО</a></li>
+          <li class="selected"><a href="geo.html">ГЕОГРАФИЯ ПЕРЕВОЗОК</a></li>
+          <li><a href="contacts.html">КОНТАКТЫ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Новости</h3>
+        <h4>Ура новый сайт!</h4>
+        <h5>1 Августа 2014 г.</h5>
+        <p>Запущен новый ипсум долор тра ля ля<br /><a href="#">Читать полностью</a></p>
+        <p></p>
+        <h4>Ура новый сайт!</h4>
+        <h5>1 Августа 2014 г.</h5>
+        <p>Запущен новый ипсум долор тра ля ля<br /><a href="#">Читать полностью</a></p>
+
+<a href="#">> Все новости</a>
+<br><br>
+
+        <h3>Загрузки</h3>
+        <ul>
+          <li><a href="agreement_standart.doc">Договор об оказании транспортно-экспедиционных услуг автомобильным транспортом</a></li>
+          <li><a href="order.doc">Заявка (образец для заполнения)</a></li>
+          <li><a href="pallet_list.doc">Паллетный лист</a></li>
+        </ul>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+
+
+        <h1>География транспортировки грузов</h1>
+
+Сегодня компания Айсберг осушествляет еженедельную отправку грузов с соблюдением температурного режима от 0 до +8 °С в торговые сети в 60-ти городах России.
+<br><br>
+
+<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту  (начало) -->
+<script  src='http://api-maps.yandex.ru/1.1/?key=AFWiulIBAAAAUGfORAIA60M0ZHBUc6qW4b1KzT4pAYxuS4wAAAAAAAAAAACwl1-Oo6404P4JeTedKN_9hdqg3A==&modules=pmap&wizard=constructor'  type='text/javascript'></script>
+<script type='text/javascript'>
+    YMaps.jQuery(window).load(function () {
+        var map = new YMaps.Map(YMaps.jQuery('#YMapsID-1050')[0]);
+        map.setCenter(new YMaps.GeoPoint(38.774281,56.622104), 5, YMaps.MapType.MAP);
+        map.addControl(new YMaps.Zoom());
+        map.addControl(new YMaps.ToolBar());
+        YMaps.MapType.PMAP.getName = function () { return 'Народная'; };
+        map.addControl(new YMaps.TypeControl([
+            YMaps.MapType.MAP,
+            YMaps.MapType.SATELLITE,
+            YMaps.MapType.HYBRID,
+            YMaps.MapType.PMAP
+        ], [0, 1, 2, 3]));
+
+        YMaps.Styles.add('constructor#pmlbmPlacemark', {
+            iconStyle : {
+                href : 'pmlbm.png',
+                size : new YMaps.Point(40,36),
+                offset: new YMaps.Point(0,0)
+            }
+        });
+
+
+        YMaps.Styles.add('constructor#FF3732c85Polyline', {
+            lineStyle : {
+                strokeColor : '',
+                strokeWidth : 2
+            }
+        });
+      
+  map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(49.122853,55.786764), 'constructor#pmlbmPlacemark', 'Казань<br><b>METRO C&C (1029)</b><br><i>620072, г.   Екатеринбург, ул. дублер Сибирского тракта, д. 21</i><br><b>REAL</b><br><i>420126, г.Казань, пр-т Ямашева, 46/33</i><br><b>АШАН</b><br><i>г. Казань, Проспект Победы, д.  1</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(52.407911,55.741678), 'constructor#pmlbmPlacemark', 'Набережные Челны<br><b>METRO C&C</b><br><i>423822, Республика Татарстан, г. Набережные Челны, пр-т Чулман, д. 33</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(49.418084,53.511311), 'constructor#pmlbmPlacemark', 'Тольятти<br><b>METRO C&C</b><br><i>445047, Самарская  обл., г. Тольятти, Южное шоссе, 2-а</i><br><b>REAL</b><br><i>445004, Тольятти, Автозаводское ш., 6</i><br><b>Окей</b><br><i>ул. Борковская, д.81</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(55.09735,51.768099), 'constructor#pmlbmPlacemark', 'Оренбург<br><b>METRO C&C</b><br><i>460000, г. Оренбург, пр-т. Победы, 155</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(48.41216,54.306953), 'constructor#pmlbmPlacemark', 'Ульяновск<br><b>METRO C&C</b><br><i>432071, г.  Ульяновск, ул. Урицкого, д. 100-д'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(37.915238,59.128893), 'constructor#pmlbmPlacemark', 'Череповец'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(39.744918,47.227163), 'constructor#pmlbmPlacemark', 'Ростов-на-Дону<br><b>METRO C&C</b><br><i>(1024) 344090, г. Ростов-на-Дону, ул. Доватора, 255</i><br><i>(1053) 344111, г. Ростов-на-Дону, пр-т 40-летия Победы, д. 340</i><br><b>АШАН</b><br><i>ул. Обсерваторная</i><br><i>г. Аксай</i><br><b>REAL</b><br><i>344068, Ростовская обл., г.Ростов-на-Дону, ул.Омская, 2К</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(41.965167,45.042935), 'constructor#pmlbmPlacemark', 'Ставрополь<br><b>METRO C&C</b><br><i>355042, г.  Ставрополь, ул. Южный обход, 13</i><br><b>ЧП Борцова</b><br><i>355042, г. Ставрополь, ул.4-ая Промышленная, д. 7 а'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(38.976032,45.034942), 'constructor#pmlbmPlacemark', 'Краснодар<br><b>METRO C&C</b><br><i>350087, г.  Краснодар,  Ростовское шоссе, д. 30</i><b>ИП Смирнов</b><br><i>г. Краснодар, ул. Стасова-Сормовская, 178/180, кор. 1</i><b>АШАН</b><br><i>Адыгея</i><br><i>ул.  Новороссийская</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(43.02596,44.052845), 'constructor#pmlbmPlacemark', 'Пятигорск<br><b>METRO C&C</b><br><i>Ставропольский край, г. Пятигорск, Бештаугорское шоссе, 94</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(37.7767,44.720479), 'constructor#pmlbmPlacemark', 'Новороссийск'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(61.40082,55.160324), 'constructor#pmlbmPlacemark', 'Челябинск<br><b>METRO C&C</b><br><i>456620,  Челябинская обл., г. Копейск, пр. Победы, д. 76</i><br/><b>Седьмой континент</b><br/><i>ул. Артиллерийская, д 136</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(60.59734,56.837982), 'constructor#pmlbmPlacemark', 'Екатеринбург<br><b>METRO C&C (1029)</b><br><i>620072, г.   Екатеринбург, ул. дублер Сибирского тракта, д. 21</i><br><b>METRO C&C (1030)</b><br><i>620043, г. Екатеринбург, ул. Металлургов, д. 85</i><br><b>METRO C&C  (1065)</b><br><i>620135, г. Екатеринбург, Проспект Космонавтов, д. 102А</i><br><b>АШАН</b><br><i>ул. Металлургов</i><br><b>АШАН СИТИ</b><br><i>ул.  Хаптурина</i><br><b>ИНТЕРКОМ</b><br><i>Никольский пер., д. 1, склад 12</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(65.558412,57.182631), 'constructor#pmlbmPlacemark', 'Тюмень<br><b>METRO C&C</b><br><i>625062, г. Тюмень,  ул. Мельникайте, 141'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(55.983161,54.738437), 'constructor#pmlbmPlacemark', 'Уфа<br><b>METRO C&C</b><br><i>450018, г. Уфа, ул.  Рубежная, 170</i><br/><b>АШАН</b><br/><i></i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(56.241077,58.00849), 'constructor#pmlbmPlacemark', 'Пермь<br><b>METRO C&C</b><br><i>614065, г. Пермь, шоссе Космонавтов, 393</i><br><b>Седьмой континент</b><br><i>ул. Героев Хасана</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(35.89225,56.855526), 'constructor#pmlbmPlacemark', 'Тверь<br><b>METRO C&C</b><br><i>170028, г. Тверь, ул.  Склизкова, 122'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(31.270337,58.522711), 'constructor#pmlbmPlacemark', 'Великий Новгород'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(30.313622,59.93772), 'constructor#pmlbmPlacemark', 'Санкт-Петербург<br><b>METRO C&C</b><br><i>(1015)  197227, г. Санкт-Петербург, Комендантский пр-т., д. 3 лит. А</i><br><i>(1016) 195279, г. Санкт-Петербург, пр-т Косыгина, д. 4, лит. А</i><br><i>(1020) 196240, г. Санкт-Петербург,  Пулковское шоссе, д. 23, лит. А</i><br><b>АШАН</b><br><i>Боровая (ул. Боровая)</i><br><i>Парнас (пос. Бугры)</i><br><i>Лето (Пулковское шоссе</i><br><i>Дыбенко  (Мурманское ш-се)</i><br><i>Гулливер (Торфяная дорога))</i><br><i>Эврика (ул. Седова)</i><br><b>REAL</b><br><i>(8012) 195276, г.Санкт-Петербург, пр-т Культуры,   д.41</i><br><i>(8013) 196244, Санкт-Петербург, Московский район, пр-т Космонавтов, д. 14</i><br><b>Интерторг</b><br><i>г. Санкт-Петербург, п. Шушары, отд. Бадаевское, д. 5  а, литера А'));
+
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(33.077819,68.963322), 'constructor#pmlbmPlacemark', 'Мурманск'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(44.997376,53.183188), 'constructor#pmlbmPlacemark', 'Пенза<br><b>METRO C&C</b><br><i>440513, Пенз. обл., Пенз. район, с. Засечное ул. Звёздная, д. 1</i><br/><b>АШАН</b><br/><i>г. Пенза, Первомайский р-он, ул. Центральная, д. 1</i><br/><b>Лента</b><br/><i>440066, г. Пенза, проспект Строителей, д.2Б</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(46.004459,51.537775), 'constructor#pmlbmPlacemark', 'Саратов<br><b>METRO C&C</b><br><i>410010 г. Саратов,  ул. Аэропорт, д. 14</i><br/><b>Лента</b><br/><i>410050, г.Саратов, пос.Зональный, ул.Молодежная, 2А</i><br/><b>РЕАЛ</b><br/><i>г. Саратов, ул. Верхняя, д. 17</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(44.515942,48.707793), 'constructor#pmlbmPlacemark', 'Волгоград<br><b>METRO C&C</b><br><i>400075, г.   Волгоград, ул. Историческая, д. 164Б</i><br><b>REAL</b><br><i>400075, г.Волгоград, ул.Историческая,175</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(48.03034,46.349636), 'constructor#pmlbmPlacemark', 'Астрахань<br><b>METRO C&C</b><br><i>414021, г.   Астрахань, ул. Заводская, д. 54/ул. <br>Набережная реки Царёв, д. 83</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(37.619028,54.193802), 'constructor#pmlbmPlacemark', 'Тула<br><b>METRO C&C</b><br><i>300903 Тульская обл.,  Ленинский р-он, Калужское ш., д. Прудное, д. 104'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(39.597603,52.603587), 'constructor#pmlbmPlacemark', 'Липецк<br><b>METRO C&C</b><br><i>398059, г. Липецк, ул. 50 лет НЛМК, 6</i><br><b>REAL</b><br><i>398036, г.Липецк, ул.Имени Героя России Эдуарда Белана, 26</i><br><b>Окей</b><br><i>г. Липецк, ул. Советская, д. 66'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(41.442401,52.719785), 'constructor#pmlbmPlacemark', 'Тамбов<br><b>REAL</b><br><i>392036, г.Тамбов, ул.  Советская, д.194'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(39.204096,51.662496), 'constructor#pmlbmPlacemark', 'Воронеж<br><b>METRO C&C</b><br><i>394042, г. Воронеж,   ул. Остужева, д. 56Б</i><br><b>АШАН</b><br><i>Воронежская обл, Рамонский р-он, <br>Солнечный п, ул. Парковая, д. 3</i><br><b>Oкей</b><br><i>Воронеж, ул. Кольцовская,  д. 35</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(36.237041,54.533832), 'constructor#pmlbmPlacemark', 'Калуга<br><b>METRO C&C</b><br><i>248033, г. Калуга, Тульское ш., 51</i><br><b>АШАН</b><br><i>248033, г. Калуга, Тульское ш., 51</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(34.376235,53.281039), 'constructor#pmlbmPlacemark', 'Брянск'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(36.181714,51.717189), 'constructor#pmlbmPlacemark', 'Курск<br><b>METRO C&C</b><br><i>630049, г. Курск, ул. Карла Маркса, д. 85'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(40.420325,56.13445), 'constructor#pmlbmPlacemark', 'Владимир<br><b>GLOBUS</b><br><i>600027, г. Владимир, Суздальский пр-кт, д.28'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(40.996702,57.008607), 'constructor#pmlbmPlacemark', 'Иваново<br><b>METRO C&C</b><br><i>153009, Ивановская   обл., Ивановский район, Южнее д. Игнатово, стр. 1</i><br><b>REAL</b><br><i>153013, г.Иваново, ул.Куконковых, д.141</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(39.887714,57.622506), 'constructor#pmlbmPlacemark', 'Ярославль<br><b>METRO C&C</b><br><i>150022, г.Ярославль, пр-т Фрунзе, 32</i><br><b>REAL</b><br><br><b>Тандер РЦ</b><br><i>Пр-т Авиаторов, д. 159</i><br><b>GLOBUS</b><br><i>150158, Ярославская область,  Ярославский р-н, пос. Красный Бор, стр. №1</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(39.731039,54.619427), 'constructor#pmlbmPlacemark', 'Рязань<br><b>METRO C&C</b><br><i>390044, г. Рязань, Московское ш., д. 25</i><br><b>Зельгрос</b><br><i></i><br><b>GLOBUS</b><br><i>390507, Рязанская обл., Рязанский р-н, с.Дядьково</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(73.365364,54.990302), 'constructor#pmlbmPlacemark', 'Омск<br><b>METRO C&C</b><br><i>644070, г. Омск, Проспект Академика Королева, д.15, корп. 1</i><br><b>АШАН</b><br><i>бульвар Архитекторов</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(87.22009,53.796826), 'constructor#pmlbmPlacemark', 'Новокузнецк<br><b>METRO C&C</b><br><i>654018, г. Новокузнецк, Кондомское шоссе, 19</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(92.870412,56.008711), 'constructor#pmlbmPlacemark', 'Красноярск<br><b>METRO C&C</b><br><i>660015, РФ, Красноярский край, п. Солонцы, проспект Котельникова, 1</i><br><b>ИП Мкртчан</b><br><i>г. Красноярск, ул. Глинки, 175</i>'));
+map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(94.07049,55.007731), 'constructor#pmlbmPlacemark', 'Красноярский край<br><b>Окей</b><br><i>ул. 9 Мая<br><i>ул. Партизана Железняка, д. 23<br><i>ул. Краснодарская, д. 40 а, стр. 4</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(82.906928,55.028739), 'constructor#pmlbmPlacemark', 'Новосибирск<br><b>METRO C&C</b><br><i>(1044) 630028, г. Новосибирск, ул. Большевистская, 290</i><br><i>(1060) 630049, г. Новосибирск, Заелцовский район, ул. Северная, 11</i><br><b>АШАН</b><br><i>ул. Ватутина</i><br><i>Курчатово, д. 1</i><br><b>Окей</b><br><i>ул. Военная</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(44.002672,56.324117), 'constructor#pmlbmPlacemark', 'Нижний Новгород<br><b>METRO C&C</b><br><i>(1021) 603070, г. Нижний Новгород, Мещерский бульвар, д. 3 а</i><br><i>(1050) 603057, г. Нижний Новгород, ул. Нартова, д. 4 А</i><br><b>АШАН</b><br><i>д. Фядьково</i><br><b>REAL</b><br><i>603126, г.Нижний Новгород, ул.Родионова, д.187в</i><br><b>Седьмой континент</b><br><i>ул. Коминтерна, д. 11</i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(20.500803,54.7197), 'constructor#pmlbmPlacemark', 'Калининград<br><b>METRO C&C</b><br><i>г. Калининград, Московский пр-т, д. 279</i><br><b>Седьмой континент</b><br/><i>г. Калининрад, ул. Мариупольская д. 14</i><br/><i>г. Калининрад, ул. Согласия, д. 1</i><br/><i>г. Калининрад,  ул. Уральская, д. 18</i><br/><i>Калининнградская обл., г. Гурьевск, ул. Кпасная, д. 2 а</i><br/><i>г. Калининрад, ул. Куйбышева, д. 91-91 а</i><br/><i>г. Калининрад, ул.  Батальная, д. 62 а</i><br/><i>г. Калининрад, ул. Фрунзе, д. 15 а</i><br/><i>г. Калининрад, ул. Лесопарковая, д. 1-7</i><br/><i>г. Калининрад, пос. Прибрежный, ул. Строительная,  д. 9 а</i><br/><i>г. Калининрад, ул. Подполковника Емельянова, д. 215</i><br><b>СК Стандарт</b><br/><i></i>'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(49.662283,58.581576), 'constructor#pmlbmPlacemark', 'Киров<br><b>METRO C&C</b><br><i>610000, г. Киров, ул. Московская, 205'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(86.087781,55.359594), 'constructor#pmlbmPlacemark', 'Кемерово<br><b>METRO C&C</b><br><i>ул. Волгоградская, д. 58'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(85.018822,56.515662), 'constructor#pmlbmPlacemark', 'Томск<br><b>METRO C&C</b><br><i>634061, г.Томск, ул.Лебедева, д.57'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(83.74962,53.356132), 'constructor#pmlbmPlacemark', 'Барнаул'));
+map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(59.046955,53.402375), 'constructor#pmlbmPlacemark', 'Магнитогорск<br><b>METRO C&C</b><br><i>г. Магнитогорск, ул.50-ти летия Магнитки, д. 69'));
+       map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(50.191184,53.205226), 'constructor#pmlbmPlacemark', 'Самара<br><b>METRO C&C</b><br><i>443072, г. Самара, 18  км Московского шоссе, д. 5 А</i><br><b>АШАН</b><br><i>ул. Дыбенко</i>'));
+map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(36.598155,50.600486), 'constructor#pmlbmPlacemark', 'Белгород<br/><b>Седьмой континент</b><br/><i>пр-кт   Б.Хмельницкого д.164</i>'));
+map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(34.376235,53.281039), 'constructor#pmlbmPlacemark', 'Брянск<br><b>METRO C&C</b><br><i>241029, г. Брянск,   Фокинский район, Московский пр-т., д. 1 д</i>'));
+map.addOverlay(createObject('Placemark', new YMaps.GeoPoint(39.883869,59.223043), 'constructor#pmlbmPlacemark', 'Вологда<br/><b>Седьмой континент</b><br/><i>Окружное  шоссе  д 12</i>'));
+       map.addOverlay(createObject('Polyline', [], 'constructor#FF3732c85Polyline', ''));
+       map.addOverlay(createObject('Polyline', [], 'constructor#FF3732c85Polyline', ''));
+
+
+        function createObject (type, point, style, description) {
+            var allowObjects = ['Placemark', 'Polyline', 'Polygon'],
+                index = YMaps.jQuery.inArray( type, allowObjects),
+                constructor = allowObjects[(index == -1) ? 0 : index];
+                description = description || '';
+            
+            var object = new YMaps[constructor](point, {style: style, hasBalloon : !!description});
+            object.description = description;
+            
+            return object;
+        }
+    });
+</script>
+
+<div id='YMapsID-1050' style='width:98%;height:450px'></div>
+<div style='width:600px;text-align:right;font-family:Arial'><a href='http://api.yandex.ru/maps/tools/constructor/' style='color:#1A3DC1; font-size:10px'>Создано с помощью инструментов  Яндекс.Карт</a></div>
+<!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (конец) -->
+
+<br>
+Производится полный спектр логистических услуг, включая кросс-докинг, а при необходимости ответственное хранение на складе, оборудованном холодильными камерами. Осуществляется экспедирование груза до склада получателя, сдача-приемка, документооборот.
+
+
+
+      </div>
+
+
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+<p style="margin-left:24px"><span style="color:#E6E6FA"><strong>ООО &quot;ЛК Айсберг&quot;</strong><br />
+107497, Россия, город Москва,Амурская улица, д. 3/1, строение 19<br />
+время работы: пн-пт 9:00-18:00<br />
+<strong>+7 (495) 780-87-77</strong><br />
+<strong><u>http://tlk-ice.ru<br />
+info@tlk-ice.ru</u></strong></span></p>
+
+    </div>
+  </div>
+</body>
+</html>
